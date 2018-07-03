@@ -4,11 +4,14 @@
   "description": "A decentralized application developed using ethereum",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.4.24"
+    "ganache-cli": "^6.1.4",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.24",
+    "web3": "^0.20.6"
   }
 }
