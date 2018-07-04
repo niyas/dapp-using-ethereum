@@ -10,7 +10,6 @@ const provider = new HDWalletProvider(
 const web3 = new Web3(provider); 
 
 const deploy = async () => {
-    console.log('default account', await web3.eth.getAccounts());
         const accounts = await web3.eth.getAccounts();
     
         console.log('Attempting to deploy from account', accounts[0]);
